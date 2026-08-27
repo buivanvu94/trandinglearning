@@ -12,7 +12,8 @@ import {
   Layers, 
   BarChart2
 } from 'lucide-react';
-import { LESSONS } from '@/lib/lessons';
+import { getSlideImageUrl } from '@/lib/lessons';
+import { useLessons } from '@/hooks/useLessons';
 import { LessonProgress, Bookmark as BookmarkType } from '@/types/lesson';
 
 interface SidebarProps {
@@ -31,15 +32,15 @@ export function Sidebar({
   onOpenBookmarksModal,
 }: SidebarProps) {
   const pathname = usePathname();
+  const { lessons } = useLessons();
   const [searchQuery, setSearchQuery] = useState('');
   const [filter, setFilter] = useState<'all' | 'completed' | 'bookmarked'>('all');
-
   const currentLessonId = useMemo(() => {
     const match = pathname.match(/\/lesson\/(\d+)/);
     return match ? parseInt(match[1], 10) : null;
   }, [pathname]);
 
-  const totalSlides = useMemo(() => LESSONS.reduce((acc, l) => acc + l.slide_count, 0), []);
+  const totalSlides = useMemo(() => lessons.reduce((acc, l) => acc + l.slide_count, 0), [lessons]);
   const completedSlidesCount = useMemo(() => {
     return Object.values(progress).reduce(
       (sum, p) => sum + (p.completedSlides ? p.completedSlides.length : 0),
@@ -49,7 +50,7 @@ export function Sidebar({
   const progressPercent = totalSlides > 0 ? Math.round((completedSlidesCount / totalSlides) * 100) : 0;
 
   const filteredLessons = useMemo(() => {
-    return LESSONS.filter((lesson) => {
+    return lessons.filter((lesson) => {
       const matchesSearch =
         !searchQuery.trim() ||
         lesson.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -65,8 +66,7 @@ export function Sidebar({
       }
       return true;
     });
-  }, [searchQuery, filter, progress, bookmarks]);
-
+  }, [searchQuery, filter, progress, bookmarks, lessons]);
   return (
     <aside
       className={`h-screen bg-[#161617]/95 border-r border-white/[0.08] backdrop-blur-2xl flex flex-col transition-all duration-300 z-40 relative select-none ${
@@ -170,7 +170,7 @@ export function Sidebar({
                   : 'text-[#86868b] hover:text-[#f5f5f7]'
               }`}
             >
-              Tất cả ({LESSONS.length})
+              Tất cả ({lessons.length})
             </button>
             <button
               onClick={() => setFilter('completed')}

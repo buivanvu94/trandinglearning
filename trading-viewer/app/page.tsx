@@ -13,13 +13,22 @@ import {
   Sparkles, 
   ArrowRight, 
   GraduationCap, 
-  ScrollText
+  ScrollText,
+  ShieldCheck,
+  LogOut,
+  Settings,
+  FolderPlus
 } from 'lucide-react';
-import { LESSONS, getSlideImageUrl } from '@/lib/lessons';
+import { getSlideImageUrl } from '@/lib/lessons';
+import { useLessons } from '@/hooks/useLessons';
 import { useCourseProgress } from '@/hooks/useCourseProgress';
+import { useAuth } from '@/contexts/AuthContext';
 import { BookmarksModal } from '@/components/BookmarksModal';
 
 export default function CourseDashboardPage() {
+  const { user, isAdmin, logout } = useAuth();
+  const { lessons, totalSlides, isLoading: isLessonsLoading } = useLessons();
+
   const {
     progress,
     bookmarks,
@@ -33,7 +42,11 @@ export default function CourseDashboardPage() {
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
 
   const lastActiveLesson = useMemo(() => {
-    let latestLesson = LESSONS[0];
+    if (!lessons || lessons.length === 0) {
+      return { lesson: { id: 1, title: 'Bài học', slide_count: 0 }, slide: 1 };
+    }
+
+    let latestLesson = lessons[0];
     let latestTime = 0;
 
     Object.entries(progress).forEach(([idStr, prog]) => {
@@ -41,7 +54,7 @@ export default function CourseDashboardPage() {
         const time = new Date(prog.lastViewedAt).getTime();
         if (time > latestTime) {
           latestTime = time;
-          const found = LESSONS.find((l) => l.id === parseInt(idStr, 10));
+          const found = lessons.find((l) => l.id === parseInt(idStr, 10));
           if (found) latestLesson = found;
         }
       }
@@ -51,14 +64,14 @@ export default function CourseDashboardPage() {
       lesson: latestLesson,
       slide: progress[latestLesson.id]?.lastSlide || 1,
     };
-  }, [progress]);
+  }, [progress, lessons]);
 
   const totalNotesCount = useMemo(() => {
     return Object.keys(notes).length;
   }, [notes]);
 
   const filteredLessons = useMemo(() => {
-    return LESSONS.filter((lesson) => {
+    return lessons.filter((lesson) => {
       const matchesSearch =
         !searchQuery.trim() ||
         lesson.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -78,12 +91,12 @@ export default function CourseDashboardPage() {
       }
       return true;
     });
-  }, [searchQuery, filter, progress, bookmarks]);
+  }, [searchQuery, filter, progress, bookmarks, lessons]);
 
   return (
-    <div className="min-h-screen bg-[#000000] text-[#f5f5f7] antialiased flex flex-col selection:bg-[#2997ff]/30">
+    <div className="min-h-screen bg-[#000000] text-[#f5f5f7] antialiased flex flex-col selection:bg-[#2997ff]/30 font-sans">
       {/* Navigation Header */}
-      <header className="border-b border-white/[0.08] bg-[#161617]/80 backdrop-blur-xl sticky top-0 z-30">
+      <header className="border-b border-white/[0.08] bg-[#161617]/90 backdrop-blur-xl sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-[#2997ff] flex items-center justify-center text-white shadow-sm">
@@ -104,24 +117,59 @@ export default function CourseDashboardPage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
+            {/* Bookmarks Quick Pill */}
             {bookmarks.length > 0 && (
               <button
                 onClick={() => setIsBookmarksOpen(true)}
-                className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium text-[#ffd60a] bg-[#ffd60a]/10 hover:bg-[#ffd60a]/20 border border-[#ffd60a]/20 rounded-full transition"
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#ffd60a] bg-[#ffd60a]/10 hover:bg-[#ffd60a]/20 border border-[#ffd60a]/20 rounded-full transition"
               >
                 <Bookmark className="w-3.5 h-3.5 fill-[#ffd60a]" />
                 <span>{bookmarks.length} Đánh dấu</span>
               </button>
             )}
 
-            <Link
-              href={`/lesson/${lastActiveLesson.lesson.id}?slide=${lastActiveLesson.slide}`}
-              className="flex items-center gap-2 px-4 py-2 text-xs font-medium text-white bg-[#0071e3] hover:bg-[#0077ed] rounded-full shadow-sm transition-all hover:scale-105"
-            >
-              <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Tiếp tục học (Bài {lastActiveLesson.lesson.id})</span>
-            </Link>
+            {/* Admin Console Switcher Button (Crucial requirement for Admin) */}
+            {isAdmin && (
+              <Link
+                href="/admin/users"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold text-white bg-gradient-to-r from-[#2997ff] to-[#0071e3] hover:from-[#0071e3] hover:to-[#005bb5] rounded-full shadow-md transition hover:scale-105 border border-white/[0.15]"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span>Admin Console</span>
+              </Link>
+            )}
+
+            {/* User Profile Pill & Logout */}
+            {user && (
+              <div className="flex items-center gap-2 pl-2 border-l border-white/[0.10]">
+                <div className="flex items-center gap-2 bg-[#1c1c1e] px-2.5 py-1 rounded-full border border-white/[0.06]">
+                  <div className="w-5 h-5 rounded-full bg-[#2997ff]/20 text-[#2997ff] flex items-center justify-center text-[10px] font-bold">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                  <span className="text-xs text-[#f5f5f7] max-w-[100px] truncate hidden md:inline">
+                    {user.name}
+                  </span>
+                  <span
+                    className={`text-[9px] px-1.5 py-0.2 rounded-full font-semibold uppercase ${
+                      user.role === 'admin'
+                        ? 'bg-[#2997ff]/20 text-[#2997ff]'
+                        : 'bg-white/[0.08] text-[#86868b]'
+                    }`}
+                  >
+                    {user.role === 'admin' ? 'Admin' : 'Học viên'}
+                  </span>
+                </div>
+
+                <button
+                  onClick={logout}
+                  title="Đăng xuất"
+                  className="p-1.5 text-[#86868b] hover:text-[#ff453a] hover:bg-[#ff453a]/10 rounded-full transition"
+                >
+                  <LogOut className="w-4 h-4" />
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </header>
@@ -134,7 +182,7 @@ export default function CourseDashboardPage() {
           <div className="lg:col-span-2 p-6 sm:p-8 bg-[#161617] border border-white/[0.08] rounded-3xl shadow-2xl relative overflow-hidden flex flex-col justify-between">
             <div className="relative z-10 space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/[0.08] text-[#2997ff] rounded-full text-xs font-medium border border-white/[0.06]">
-                <Sparkles className="w-3.5 h-3.5" /> 14 Chuyên đề chuyên sâu
+                <Sparkles className="w-3.5 h-3.5" /> {lessons.length} Chuyên đề chuyên sâu
               </div>
 
               <h2 className="text-2xl sm:text-3xl font-bold text-[#f5f5f7] tracking-tight leading-tight">
@@ -147,28 +195,30 @@ export default function CourseDashboardPage() {
             </div>
 
             {/* Quick Resume Strip */}
-            <div className="relative z-10 mt-6 pt-6 border-t border-white/[0.08] flex flex-wrap items-center justify-between gap-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-2xl bg-[#1c1c1e] border border-white/[0.08] flex items-center justify-center font-semibold text-[#2997ff] font-mono">
-                  {lastActiveLesson.lesson.id}
-                </div>
-                <div>
-                  <div className="text-[10px] text-[#86868b] uppercase font-medium">
-                    Đang học dở
+            {lastActiveLesson.lesson && (
+              <div className="relative z-10 mt-6 pt-6 border-t border-white/[0.08] flex flex-wrap items-center justify-between gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-[#1c1c1e] border border-white/[0.08] flex items-center justify-center font-semibold text-[#2997ff] font-mono">
+                    {lastActiveLesson.lesson.id}
                   </div>
-                  <div className="text-xs font-medium text-[#f5f5f7] truncate max-w-xs sm:max-w-md">
-                    {lastActiveLesson.lesson.title}
+                  <div>
+                    <div className="text-[10px] text-[#86868b] uppercase font-medium">
+                      Đang học dở
+                    </div>
+                    <div className="text-xs font-medium text-[#f5f5f7] truncate max-w-xs sm:max-w-md">
+                      {lastActiveLesson.lesson.title}
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <Link
-                href={`/lesson/${lastActiveLesson.lesson.id}?slide=${lastActiveLesson.slide}`}
-                className="flex items-center gap-2 px-4 py-2 bg-[#0071e3] hover:bg-[#0077ed] text-white font-medium rounded-full text-xs transition-all shadow-sm"
-              >
-                Vào học ngay Slide {lastActiveLesson.slide} <ArrowRight className="w-3.5 h-3.5" />
-              </Link>
-            </div>
+                <Link
+                  href={`/lesson/${lastActiveLesson.lesson.id}?slide=${lastActiveLesson.slide}`}
+                  className="flex items-center gap-2 px-4 py-2 bg-[#0071e3] hover:bg-[#0077ed] text-white font-medium rounded-full text-xs transition-all shadow-sm"
+                >
+                  Vào học ngay Slide {lastActiveLesson.slide} <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            )}
           </div>
 
           {/* Stats & Progress Metric Box */}
@@ -189,7 +239,7 @@ export default function CourseDashboardPage() {
                   {stats.overallPercentage}%
                 </span>
                 <span className="text-xs text-[#86868b] font-mono">
-                  {stats.completedSlidesCount} / {stats.totalSlides} slides
+                  {stats.completedSlidesCount} / {totalSlides || stats.totalSlides} slides
                 </span>
               </div>
 
@@ -207,7 +257,7 @@ export default function CourseDashboardPage() {
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#30d158]" /> Bài hoàn thành
                 </div>
                 <div className="text-base font-semibold text-[#f5f5f7] font-mono mt-1">
-                  {stats.completedLessonsCount} / {stats.totalLessons}
+                  {stats.completedLessonsCount} / {lessons.length}
                 </div>
               </div>
 
@@ -235,7 +285,7 @@ export default function CourseDashboardPage() {
                   : 'text-[#86868b] hover:text-[#f5f5f7]'
               }`}
             >
-              Tất cả ({LESSONS.length})
+              Tất cả ({lessons.length})
             </button>
             <button
               onClick={() => setFilter('in_progress')}
@@ -288,7 +338,7 @@ export default function CourseDashboardPage() {
             const lessonProg = progress[lesson.id];
             const completedCount = lessonProg?.completedSlides?.length || 0;
             const isCompleted = lessonProg?.isCompleted || false;
-            const progressRatio = (completedCount / lesson.slide_count) * 100;
+            const progressRatio = (completedCount / (lesson.slide_count || 1)) * 100;
             const hasBookmark = bookmarks.some((b) => b.lessonId === lesson.id);
             const coverImageUrl = getSlideImageUrl(lesson, 1);
 

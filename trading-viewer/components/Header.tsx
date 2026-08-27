@@ -14,8 +14,10 @@ import {
   HelpCircle,
   ChevronLeft,
   ChevronRight,
-  Home
+  Home,
+  ShieldCheck
 } from 'lucide-react';
+import { useAuth } from '@/contexts/AuthContext';
 import { Lesson, ViewMode } from '@/types/lesson';
 import { getAdjacentLessons } from '@/lib/lessons';
 
@@ -48,8 +50,8 @@ export function Header({
   isFullscreen,
   onToggleFullscreen,
 }: HeaderProps) {
+  const { isAdmin } = useAuth();
   const { prevLesson, nextLesson } = getAdjacentLessons(lesson.id);
-
   return (
     <header className="h-14 border-b border-white/[0.08] bg-[#161617]/85 backdrop-blur-xl px-4 flex items-center justify-between z-30 select-none">
       {/* Left: Breadcrumbs & Navigation */}
@@ -210,6 +212,17 @@ export function Header({
           >
             <HelpCircle className="w-3.5 h-3.5" />
           </button>
+
+          {isAdmin && (
+            <Link
+              href="/admin/lessons"
+              className="flex items-center gap-1 px-2.5 py-1 text-xs font-semibold text-white bg-[#0071e3] hover:bg-[#0077ed] rounded-full shadow transition ml-1"
+              title="Về bảng Quản trị Bài học"
+            >
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span className="hidden md:inline">Admin</span>
+            </Link>
+          )}
         </div>
       </div>
     </header>
