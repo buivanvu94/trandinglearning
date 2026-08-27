@@ -1,0 +1,1590 @@
+[
+  {
+    "id": 1,
+    "title": "1. Bối cảnh Nến IMB Tăng Giảm",
+    "folder_name": "1. Bối cảnh Nến IMB Tăng Giảm",
+    "slide_count": 10,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_01.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 152322
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_02.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 166158
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_03.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 157636
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_04.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 206599
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_05.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 179186
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_06.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 187391
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_07.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 173811
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_08.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 180248
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_09.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 189997
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "1. Bối cảnh Nến IMB Tăng Giảm/slide_10.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 187161
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "2. Bối cảnh GAP Lvol",
+    "folder_name": "2. Bối cảnh GAP Lvol",
+    "slide_count": 14,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_01.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 173058
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_02.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 199891
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_03.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 198288
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_04.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 158177
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_05.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 191023
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_06.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 165838
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_07.png",
+        "width": 1,
+        "height": 1,
+        "format": "PNG",
+        "size_bytes": 70
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_08.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 164132
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_09.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 162442
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_10.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 174069
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_11.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 171794
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_12.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 166660
+      },
+      {
+        "slide_index": 13,
+        "filename": "slide_13.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_13.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 155287
+      },
+      {
+        "slide_index": 14,
+        "filename": "slide_14.jpg",
+        "relative_path": "2. Bối cảnh GAP Lvol/slide_14.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 153435
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng",
+    "folder_name": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng",
+    "slide_count": 10,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_01.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 217673
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_02.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 190848
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_03.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 162799
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_04.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 171069
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_05.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 173411
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_06.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 165171
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_07.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 168554
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_08.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 164460
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_09.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 205382
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "3. Góc nhìn MM đánh lừa mình - Dựa vào điểm vị thế để xem xét xu hướng/slide_10.jpg",
+        "width": 2048,
+        "height": 1171,
+        "format": "JPEG",
+        "size_bytes": 190372
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "4. Dùng VP xác định LVN và luận bối cảnh",
+    "folder_name": "4. Dùng VP xác định LVN và luận bối cảnh",
+    "slide_count": 14,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_01.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 183660
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_02.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 188977
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_03.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 202543
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_04.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 202690
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_05.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 202832
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_06.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 192200
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_07.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 198389
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_08.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 205797
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_09.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 175563
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_10.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 191491
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_11.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 184811
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_12.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 182741
+      },
+      {
+        "slide_index": 13,
+        "filename": "slide_13.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_13.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 174090
+      },
+      {
+        "slide_index": 14,
+        "filename": "slide_14.jpg",
+        "relative_path": "4. Dùng VP xác định LVN và luận bối cảnh/slide_14.jpg",
+        "width": 2048,
+        "height": 1218,
+        "format": "JPEG",
+        "size_bytes": 173258
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng",
+    "folder_name": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng",
+    "slide_count": 14,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_01.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 177350
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_02.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 228612
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_03.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 196069
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_04.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 210408
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_05.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 191835
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_06.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 178356
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_07.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 175510
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_08.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 203675
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_09.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 179846
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_10.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 187107
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_11.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 169139
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_12.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 174893
+      },
+      {
+        "slide_index": 13,
+        "filename": "slide_13.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_13.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 167572
+      },
+      {
+        "slide_index": 14,
+        "filename": "slide_14.jpg",
+        "relative_path": "5. TR-GAP-Cấu trúc giảm và đi theo xu hướng/slide_14.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 167138
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "6. Xác định đảo chiều hay tiếp tục xu hướng",
+    "folder_name": "6. Xác định đảo chiều hay tiếp tục xu hướng",
+    "slide_count": 12,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_01.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 161925
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_02.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 179532
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_03.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 157448
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_04.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 157242
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_05.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 164800
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_06.jpg",
+        "width": 2048,
+        "height": 1153,
+        "format": "JPEG",
+        "size_bytes": 208511
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_07.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 149734
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_08.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 165533
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_09.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 166221
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_10.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 176257
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_11.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 168994
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.jpg",
+        "relative_path": "6. Xác định đảo chiều hay tiếp tục xu hướng/slide_12.jpg",
+        "width": 2048,
+        "height": 1182,
+        "format": "JPEG",
+        "size_bytes": 169696
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "7.  Xác định xu hướng-điều kiện để chọn xu hướng",
+    "folder_name": "7.  Xác định xu hướng-điều kiện để chọn xu hướng",
+    "slide_count": 8,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_01.png",
+        "width": 1009,
+        "height": 557,
+        "format": "PNG",
+        "size_bytes": 260402
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_02.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 260232
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_03.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 259542
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_04.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 327782
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_05.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 315426
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_06.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 235395
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_07.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 270532
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "7.  Xác định xu hướng-điều kiện để chọn xu hướng/slide_08.png",
+        "width": 2048,
+        "height": 1131,
+        "format": "PNG",
+        "size_bytes": 282936
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng",
+    "folder_name": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng",
+    "slide_count": 11,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_01.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 325044
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_02.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 274601
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_03.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 324207
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_04.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 387622
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_05.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 310722
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_06.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 303802
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_07.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 327411
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_08.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 335365
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_09.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 332066
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_10.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 334038
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.png",
+        "relative_path": "8. Đấu giá trong TR - Test vị thế và chọn xu hướng/slide_11.png",
+        "width": 2048,
+        "height": 1218,
+        "format": "PNG",
+        "size_bytes": 373024
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều",
+    "folder_name": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều",
+    "slide_count": 16,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_01.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 355277
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_02.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 237877
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_03.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 282735
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_04.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 265044
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_05.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 301006
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_06.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 278073
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_07.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 284320
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_08.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 303995
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_09.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 298840
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_10.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 303929
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_11.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 281667
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_12.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 278491
+      },
+      {
+        "slide_index": 13,
+        "filename": "slide_13.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_13.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 210809
+      },
+      {
+        "slide_index": 14,
+        "filename": "slide_14.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_14.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 273957
+      },
+      {
+        "slide_index": 15,
+        "filename": "slide_15.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_15.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 336606
+      },
+      {
+        "slide_index": 16,
+        "filename": "slide_16.png",
+        "relative_path": "9.  Đọc cung cầu ở đỉnh cạn cầu để xem xét Tăng tiếp hay đảo chiều/slide_16.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 294737
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "10. Logic về Vị Thế của Cung Cầu",
+    "folder_name": "10. Logic về Vị Thế của Cung Cầu",
+    "slide_count": 12,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_01.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 210673
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_02.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 197792
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_03.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 152392
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_04.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 174168
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_05.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 166104
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_06.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 188254
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_07.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 193902
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_08.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 163323
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_09.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 228204
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_10.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 201512
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_11.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 174113
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.png",
+        "relative_path": "10. Logic về Vị Thế của Cung Cầu/slide_12.png",
+        "width": 1927,
+        "height": 1237,
+        "format": "PNG",
+        "size_bytes": 160441
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "11. Góc nhìn trước khi ra tin",
+    "folder_name": "11. Góc nhìn trước khi ra tin",
+    "slide_count": 12,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_01.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 250886
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_02.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 253942
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_03.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 243739
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_04.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 316814
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_05.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 245804
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_06.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 281268
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_07.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 233602
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_08.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 246034
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_09.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 287057
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_10.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 248127
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_11.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 279032
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.png",
+        "relative_path": "11. Góc nhìn trước khi ra tin/slide_12.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 252175
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "12. Bối cảnh quay về điểm xuất phát lực",
+    "folder_name": "12. Bối cảnh quay về điểm xuất phát lực",
+    "slide_count": 12,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_01.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 289763
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_02.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 322483
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_03.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 318524
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_04.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 329797
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_05.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 320401
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_06.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 260612
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_07.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 309489
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_08.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 331430
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_09.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 293049
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_10.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 290367
+      },
+      {
+        "slide_index": 11,
+        "filename": "slide_11.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_11.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 339322
+      },
+      {
+        "slide_index": 12,
+        "filename": "slide_12.png",
+        "relative_path": "12. Bối cảnh quay về điểm xuất phát lực/slide_12.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 256952
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "13. Điểm xuất phát lực và Đảo chiều về",
+    "folder_name": "13. Điểm xuất phát lực và Đảo chiều về",
+    "slide_count": 9,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_01.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 369815
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_02.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 320468
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_03.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 309943
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_04.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 327722
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_05.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 341524
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_06.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 319925
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_07.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 356869
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_08.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 360233
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "13. Điểm xuất phát lực và Đảo chiều về/slide_09.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 247075
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "14. Xu hướng giảm nhưng Hvol Buy thì sao _",
+    "folder_name": "14. Xu hướng giảm nhưng Hvol Buy thì sao _",
+    "slide_count": 10,
+    "slides": [
+      {
+        "slide_index": 1,
+        "filename": "slide_01.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_01.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 277113
+      },
+      {
+        "slide_index": 2,
+        "filename": "slide_02.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_02.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 287268
+      },
+      {
+        "slide_index": 3,
+        "filename": "slide_03.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_03.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 265439
+      },
+      {
+        "slide_index": 4,
+        "filename": "slide_04.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_04.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 290368
+      },
+      {
+        "slide_index": 5,
+        "filename": "slide_05.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_05.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 231559
+      },
+      {
+        "slide_index": 6,
+        "filename": "slide_06.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_06.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 354498
+      },
+      {
+        "slide_index": 7,
+        "filename": "slide_07.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_07.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 264363
+      },
+      {
+        "slide_index": 8,
+        "filename": "slide_08.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_08.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 417458
+      },
+      {
+        "slide_index": 9,
+        "filename": "slide_09.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_09.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 308100
+      },
+      {
+        "slide_index": 10,
+        "filename": "slide_10.png",
+        "relative_path": "14. Xu hướng giảm nhưng Hvol Buy thì sao _/slide_10.png",
+        "width": 2048,
+        "height": 1168,
+        "format": "PNG",
+        "size_bytes": 285335
+      }
+    ]
+  }
+]
