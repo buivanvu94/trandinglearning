@@ -9,19 +9,25 @@ echo =======================================================
 echo.
 
 cd /d "%~dp0"
+if not exist ".env" (
+    echo [0/4] Khởi tạo tệp cấu hình .env từ .env.example...
+    copy .env.example .env >nul
+)
 
 if not exist "node_modules" (
-    echo [1/3] Đang cài đặt thư viện cần thiết...
+    echo [1/4] Đang cài đặt thư viện cần thiết...
     call npm install
 )
 
+echo [2/4] Kiểm tra và khởi tạo cơ sở dữ liệu MySQL...
+call npm run db:init
+
 if not exist ".next" (
-    echo [2/3] Đang đóng gói ứng dụng (Build Next.js)...
+    echo [3/4] Đang đóng gói ứng dụng (Build Next.js)...
     call npm run build
 )
 
-echo [3/3] Đang khởi chạy máy chủ tại http://localhost:4000 ...
-echo.
+echo [4/4] Đang khởi chạy máy chủ tại http://localhost:4000 ...
 echo =======================================================
 echo    Ứng dụng đang chạy tại: http://localhost:4000
 echo    Nhấn Ctrl + C để dừng máy chủ khi học xong.
